@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Proyecto Flautas — UI local</title>
+  <link rel="stylesheet" href="./css/ui.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="panel">
+      <header class="panel-header">
+        <div>
+          <h1 class="panel-title">Flauta inversa</h1>
+        </div>
+      </header>
+
+      <section class="controls-grid">
+        <article class="control-card">
+          <label class="control-label" for="slider-d">
+            <span class="control-title">d (diámetro de la embocadura)</span>
+            <span class="control-value" id="value-d">—</span>
+          </label>
+          <input id="slider-d" type="range" />
+          <div class="control-bounds" id="bounds-d">—</div>
+        </article>
+
+        <article class="control-card">
+          <label class="control-label" for="slider-x">
+            <span class="control-title">x (posición de la embocadura)</span>
+            <span class="control-value" id="value-x">—</span>
+          </label>
+          <input id="slider-x" type="range" />
+          <div class="control-bounds" id="bounds-x">—</div>
+        </article>
+
+        <article class="control-card">
+          <label class="control-label" for="slider-y">
+            <span class="control-title">y (chimenea)</span>
+            <span class="control-value" id="value-y">—</span>
+          </label>
+          <input id="slider-y" type="range" />
+          <div class="control-bounds" id="bounds-y">—</div>
+        </article>
+
+        <article class="control-card">
+          <label class="control-label" for="slider-a">
+            <span class="control-title">a (paso de cono a cilindro)</span>
+            <span class="control-value" id="value-a">—</span>
+          </label>
+          <input id="slider-a" type="range" />
+          <div class="control-bounds" id="bounds-a">—</div>
+        </article>
+
+        <article class="control-card">
+          <label class="control-label" for="slider-Dt">
+            <span class="control-title">D_tip (diámetro del inicio del cono)</span>
+            <span class="control-value" id="value-Dt">—</span>
+          </label>
+          <input id="slider-Dt" type="range" />
+          <div class="control-bounds" id="bounds-Dt">—</div>
+        </article>
+      </section>
+
+      <section class="canvas-section">
+        <div class="canvas-box">
+          <canvas id="flute-canvas" width="920" height="220"></canvas>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script type="module" src="./js/init.js"></script>
+</body>
+</html>
