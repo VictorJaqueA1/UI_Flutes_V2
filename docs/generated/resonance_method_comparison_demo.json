@@ -1,0 +1,610 @@
+{
+  "inverse_curve": {
+    "flute_kind": "inverse",
+    "input_geometry": {
+      "kind": "inverse",
+      "d": 9.0,
+      "x": 160.0,
+      "y": 6.0,
+      "a": 150.0,
+      "Dt": 12.0,
+      "L": 570.0,
+      "Di": 18.0
+    },
+    "frequency_axis_min_hz": 20.0,
+    "frequency_axis_max_hz": 2200.0,
+    "frequency_axis_step_hz": 2.0,
+    "frequency_axis_rationale": "Barrido global heredado: 20 Hz hasta un maximo derivado del corte mas corto (L/2), reutilizado para todos los cortes de una misma flauta.",
+    "points": [
+      {
+        "cut_length_mm": 570.0,
+        "f1_hint_hz": 303.5087719298246,
+        "f1_hz": 384.0,
+        "f2_hz": 740.0,
+        "delta_cents": -64.29724824581294,
+        "f1_window_hz": [
+          197.280701754386,
+          409.73684210526324
+        ],
+        "f2_window_hz": [
+          614.4000000000001,
+          921.5999999999999
+        ]
+      },
+      {
+        "cut_length_mm": 538.3333333333334,
+        "f1_hint_hz": 321.3622291021672,
+        "f1_hz": 412.0,
+        "f2_hz": 780.0,
+        "delta_cents": -95.00425612032919,
+        "f1_window_hz": [
+          208.88544891640868,
+          433.83900928792576
+        ],
+        "f2_window_hz": [
+          659.2,
+          988.8
+        ]
+      },
+      {
+        "cut_length_mm": 506.6666666666667,
+        "f1_hint_hz": 341.4473684210526,
+        "f1_hz": 446.0,
+        "f2_hz": 816.0,
+        "delta_cents": -154.16946953857104,
+        "f1_window_hz": [
+          221.9407894736842,
+          460.95394736842104
+        ],
+        "f2_window_hz": [
+          713.6,
+          1070.3999999999999
+        ]
+      },
+      {
+        "cut_length_mm": 475.0,
+        "f1_hint_hz": 364.2105263157895,
+        "f1_hz": 484.0,
+        "f2_hz": 848.0,
+        "delta_cents": -229.13133925367447,
+        "f1_window_hz": [
+          236.73684210526318,
+          491.68421052631584
+        ],
+        "f2_window_hz": [
+          774.4000000000001,
+          1161.6
+        ]
+      },
+      {
+        "cut_length_mm": 443.3333333333333,
+        "f1_hint_hz": 390.22556390977445,
+        "f1_hz": 526.0,
+        "f2_hz": 876.0,
+        "delta_cents": -316.95831562935473,
+        "f1_window_hz": [
+          253.6466165413534,
+          526.8045112781955
+        ],
+        "f2_window_hz": [
+          841.6,
+          1262.3999999999999
+        ]
+      },
+      {
+        "cut_length_mm": 411.66666666666663,
+        "f1_hint_hz": 420.24291497975713,
+        "f1_hz": 566.0,
+        "f2_hz": 906.0,
+        "delta_cents": -385.54920334277665,
+        "f1_window_hz": [
+          273.15789473684214,
+          567.3279352226722
+        ],
+        "f2_window_hz": [
+          905.6,
+          1358.3999999999999
+        ]
+      },
+      {
+        "cut_length_mm": 380.0,
+        "f1_hint_hz": 455.2631578947368,
+        "f1_hz": 614.0,
+        "f2_hz": 1402.0,
+        "delta_cents": 229.41094636853262,
+        "f1_window_hz": [
+          295.92105263157896,
+          614.6052631578948
+        ],
+        "f2_window_hz": [
+          982.4000000000001,
+          1473.6
+        ]
+      },
+      {
+        "cut_length_mm": 348.3333333333333,
+        "f1_hint_hz": 496.6507177033493,
+        "f1_hz": 670.0,
+        "f2_hz": 1564.0,
+        "delta_cents": 267.6090143546609,
+        "f1_window_hz": [
+          322.82296650717706,
+          670.4784688995215
+        ],
+        "f2_window_hz": [
+          1072.0,
+          1608.0
+        ]
+      },
+      {
+        "cut_length_mm": 316.66666666666663,
+        "f1_hint_hz": 546.3157894736843,
+        "f1_hz": 736.0,
+        "f2_hz": 1726.0,
+        "delta_cents": 275.5857517463305,
+        "f1_window_hz": [
+          355.1052631578948,
+          737.5263157894739
+        ],
+        "f2_window_hz": [
+          1177.6000000000001,
+          1766.3999999999999
+        ]
+      },
+      {
+        "cut_length_mm": 285.0,
+        "f1_hint_hz": 607.0175438596492,
+        "f1_hz": 818.0,
+        "f2_hz": 1860.0,
+        "delta_cents": 222.15584766437385,
+        "f1_window_hz": [
+          394.561403508772,
+          819.4736842105265
+        ],
+        "f2_window_hz": [
+          1308.8000000000002,
+          1963.1999999999998
+        ]
+      }
+    ]
+  },
+  "base_curve": {
+    "flute_kind": "base",
+    "input_geometry": {
+      "kind": "base",
+      "d": 9.0,
+      "x": 160.0,
+      "y": 6.0,
+      "a": 150.0,
+      "Dt": 12.0,
+      "L": 570.0,
+      "Di": 18.0
+    },
+    "frequency_axis_min_hz": 20.0,
+    "frequency_axis_max_hz": 2200.0,
+    "frequency_axis_step_hz": 2.0,
+    "frequency_axis_rationale": "Barrido global heredado: 20 Hz hasta un maximo derivado del corte mas corto (L/2), reutilizado para todos los cortes de una misma flauta.",
+    "points": [
+      {
+        "cut_length_mm": 570.0,
+        "f1_hint_hz": 303.5087719298246,
+        "f1_hz": 386.0,
+        "f2_hz": 746.0,
+        "delta_cents": -59.31026041541119,
+        "f1_window_hz": [
+          197.280701754386,
+          409.73684210526324
+        ],
+        "f2_window_hz": [
+          617.6,
+          926.4
+        ]
+      },
+      {
+        "cut_length_mm": 538.3333333333334,
+        "f1_hint_hz": 321.3622291021672,
+        "f1_hz": 416.0,
+        "f2_hz": 786.0,
+        "delta_cents": -98.46505905898289,
+        "f1_window_hz": [
+          208.88544891640868,
+          433.83900928792576
+        ],
+        "f2_window_hz": [
+          665.6,
+          998.4
+        ]
+      },
+      {
+        "cut_length_mm": 506.6666666666667,
+        "f1_hint_hz": 341.4473684210526,
+        "f1_hz": 450.0,
+        "f2_hz": 824.0,
+        "delta_cents": -152.7367968405824,
+        "f1_window_hz": [
+          221.9407894736842,
+          460.95394736842104
+        ],
+        "f2_window_hz": [
+          720.0,
+          1080.0
+        ]
+      },
+      {
+        "cut_length_mm": 475.0,
+        "f1_hint_hz": 364.2105263157895,
+        "f1_hz": 490.0,
+        "f2_hz": 854.0,
+        "delta_cents": -238.25481525849617,
+        "f1_window_hz": [
+          236.73684210526318,
+          491.68421052631584
+        ],
+        "f2_window_hz": [
+          784.0,
+          1176.0
+        ]
+      },
+      {
+        "cut_length_mm": 443.3333333333333,
+        "f1_hint_hz": 390.22556390977445,
+        "f1_hz": 526.0,
+        "f2_hz": 880.0,
+        "delta_cents": -309.0711309211712,
+        "f1_window_hz": [
+          253.6466165413534,
+          526.8045112781955
+        ],
+        "f2_window_hz": [
+          841.6,
+          1262.3999999999999
+        ]
+      },
+      {
+        "cut_length_mm": 411.66666666666663,
+        "f1_hint_hz": 420.24291497975713,
+        "f1_hz": 566.0,
+        "f2_hz": 906.0,
+        "delta_cents": -385.54920334277665,
+        "f1_window_hz": [
+          273.15789473684214,
+          567.3279352226722
+        ],
+        "f2_window_hz": [
+          905.6,
+          1358.3999999999999
+        ]
+      },
+      {
+        "cut_length_mm": 380.0,
+        "f1_hint_hz": 455.2631578947368,
+        "f1_hz": 614.0,
+        "f2_hz": 1408.0,
+        "delta_cents": 236.80412792054156,
+        "f1_window_hz": [
+          295.92105263157896,
+          614.6052631578948
+        ],
+        "f2_window_hz": [
+          982.4000000000001,
+          1473.6
+        ]
+      },
+      {
+        "cut_length_mm": 348.3333333333333,
+        "f1_hint_hz": 496.6507177033493,
+        "f1_hz": 670.0,
+        "f2_hz": 1568.0,
+        "delta_cents": 272.03107052408825,
+        "f1_window_hz": [
+          322.82296650717706,
+          670.4784688995215
+        ],
+        "f2_window_hz": [
+          1072.0,
+          1608.0
+        ]
+      },
+      {
+        "cut_length_mm": 316.66666666666663,
+        "f1_hint_hz": 546.3157894736843,
+        "f1_hz": 736.0,
+        "f2_hz": 1730.0,
+        "delta_cents": 279.593239760489,
+        "f1_window_hz": [
+          355.1052631578948,
+          737.5263157894739
+        ],
+        "f2_window_hz": [
+          1177.6000000000001,
+          1766.3999999999999
+        ]
+      },
+      {
+        "cut_length_mm": 285.0,
+        "f1_hint_hz": 607.0175438596492,
+        "f1_hz": 818.0,
+        "f2_hz": 1858.0,
+        "delta_cents": 220.29330412908496,
+        "f1_window_hz": [
+          394.561403508772,
+          819.4736842105265
+        ],
+        "f2_window_hz": [
+          1308.8000000000002,
+          1963.1999999999998
+        ]
+      }
+    ]
+  },
+  "inverse_comparison": {
+    "flute_kind": "inverse",
+    "input_geometry": {
+      "kind": "inverse",
+      "d": 9.0,
+      "x": 160.0,
+      "y": 6.0,
+      "a": 150.0,
+      "Dt": 12.0,
+      "L": 570.0,
+      "Di": 18.0
+    },
+    "points": [
+      {
+        "cut_length_mm": 570.0,
+        "manual_f1_hz": 384.0,
+        "manual_f2_hz": 740.0,
+        "manual_delta_cents": -64.29724824581294,
+        "openwind_f1_hz": 270.4475025899127,
+        "openwind_f2_hz": 573.8707978239645,
+        "openwind_delta_cents": 102.4528651668502,
+        "difference_f1_hz": 113.55249741008731,
+        "difference_f2_hz": 166.1292021760355,
+        "difference_delta_cents": -166.75011341266315
+      },
+      {
+        "cut_length_mm": 538.3333333333334,
+        "manual_f1_hz": 412.0,
+        "manual_f2_hz": 780.0,
+        "manual_delta_cents": -95.00425612032919,
+        "openwind_f1_hz": 285.6404205803667,
+        "openwind_f2_hz": 609.0955977261301,
+        "openwind_delta_cents": 110.96223564764713,
+        "difference_f1_hz": 126.35957941963329,
+        "difference_f2_hz": 170.9044022738699,
+        "difference_delta_cents": -205.96649176797632
+      },
+      {
+        "cut_length_mm": 506.6666666666667,
+        "manual_f1_hz": 446.0,
+        "manual_f2_hz": 816.0,
+        "manual_delta_cents": -154.16946953857104,
+        "openwind_f1_hz": 302.85084314967185,
+        "openwind_f2_hz": 649.0470315994327,
+        "openwind_delta_cents": 119.65871453426173,
+        "difference_f1_hz": 143.14915685032815,
+        "difference_f2_hz": 166.95296840056733,
+        "difference_delta_cents": -273.82818407283276
+      },
+      {
+        "cut_length_mm": 475.0,
+        "manual_f1_hz": 484.0,
+        "manual_f2_hz": 848.0,
+        "manual_delta_cents": -229.13133925367447,
+        "openwind_f1_hz": 322.4069605300846,
+        "openwind_f2_hz": 694.7083033870584,
+        "openwind_delta_cents": 129.02934009456277,
+        "difference_f1_hz": 161.59303946991542,
+        "difference_f2_hz": 153.29169661294156,
+        "difference_delta_cents": -358.16067934823724
+      },
+      {
+        "cut_length_mm": 443.3333333333333,
+        "manual_f1_hz": 526.0,
+        "manual_f2_hz": 876.0,
+        "manual_delta_cents": -316.95831562935473,
+        "openwind_f1_hz": 344.86390266548534,
+        "openwind_f2_hz": 747.2798185347065,
+        "openwind_delta_cents": 138.74571908040522,
+        "difference_f1_hz": 181.13609733451466,
+        "difference_f2_hz": 128.72018146529354,
+        "difference_delta_cents": -455.70403470976
+      },
+      {
+        "cut_length_mm": 411.66666666666663,
+        "manual_f1_hz": 566.0,
+        "manual_f2_hz": 906.0,
+        "manual_delta_cents": -385.54920334277665,
+        "openwind_f1_hz": 370.9950024645959,
+        "openwind_f2_hz": 808.3338575694248,
+        "openwind_delta_cents": 148.26182896871518,
+        "difference_f1_hz": 195.00499753540407,
+        "difference_f2_hz": 97.66614243057518,
+        "difference_delta_cents": -533.8110323114918
+      },
+      {
+        "cut_length_mm": 380.0,
+        "manual_f1_hz": 614.0,
+        "manual_f2_hz": 1402.0,
+        "manual_delta_cents": 229.41094636853262,
+        "openwind_f1_hz": 401.8240577008595,
+        "openwind_f2_hz": 879.8135893239345,
+        "openwind_delta_cents": 156.76073069909972,
+        "difference_f1_hz": 212.1759422991405,
+        "difference_f2_hz": 522.1864106760655,
+        "difference_delta_cents": 72.6502156694329
+      },
+      {
+        "cut_length_mm": 348.3333333333333,
+        "manual_f1_hz": 670.0,
+        "manual_f2_hz": 1564.0,
+        "manual_delta_cents": 267.6090143546609,
+        "openwind_f1_hz": 438.85148782580865,
+        "openwind_f2_hz": 966.471034781026,
+        "openwind_delta_cents": 166.79243630622412,
+        "difference_f1_hz": 231.14851217419135,
+        "difference_f2_hz": 597.528965218974,
+        "difference_delta_cents": 100.81657804843681
+      },
+      {
+        "cut_length_mm": 316.66666666666663,
+        "manual_f1_hz": 736.0,
+        "manual_f2_hz": 1726.0,
+        "manual_delta_cents": 275.5857517463305,
+        "openwind_f1_hz": 484.18780168294734,
+        "openwind_f2_hz": 1572.2252797576682,
+        "openwind_delta_cents": 839.0031762805645,
+        "difference_f1_hz": 251.81219831705266,
+        "difference_f2_hz": 153.7747202423318,
+        "difference_delta_cents": -563.417424534234
+      },
+      {
+        "cut_length_mm": 285.0,
+        "manual_f1_hz": 818.0,
+        "manual_f2_hz": 1860.0,
+        "manual_delta_cents": 222.15584766437385,
+        "openwind_f1_hz": 541.0940341253524,
+        "openwind_f2_hz": 1176.7259911944575,
+        "openwind_delta_cents": 144.99261356054876,
+        "difference_f1_hz": 276.90596587464756,
+        "difference_f2_hz": 683.2740088055425,
+        "difference_delta_cents": 77.16323410382509
+      }
+    ]
+  },
+  "base_comparison": {
+    "flute_kind": "base",
+    "input_geometry": {
+      "kind": "base",
+      "d": 9.0,
+      "x": 160.0,
+      "y": 6.0,
+      "a": 150.0,
+      "Dt": 12.0,
+      "L": 570.0,
+      "Di": 18.0
+    },
+    "points": [
+      {
+        "cut_length_mm": 570.0,
+        "manual_f1_hz": 386.0,
+        "manual_f2_hz": 746.0,
+        "manual_delta_cents": -59.31026041541119,
+        "openwind_f1_hz": 287.55933770454976,
+        "openwind_f2_hz": 586.0172653934429,
+        "openwind_delta_cents": 32.50018111181466,
+        "difference_f1_hz": 98.44066229545024,
+        "difference_f2_hz": 159.98273460655707,
+        "difference_delta_cents": -91.81044152722586
+      },
+      {
+        "cut_length_mm": 538.3333333333334,
+        "manual_f1_hz": 416.0,
+        "manual_f2_hz": 786.0,
+        "manual_delta_cents": -98.46505905898289,
+        "openwind_f1_hz": 303.9925203883484,
+        "openwind_f2_hz": 620.6699007310281,
+        "openwind_delta_cents": 35.7484286512511,
+        "difference_f1_hz": 112.0074796116516,
+        "difference_f2_hz": 165.33009926897194,
+        "difference_delta_cents": -134.213487710234
+      },
+      {
+        "cut_length_mm": 506.6666666666667,
+        "manual_f1_hz": 450.0,
+        "manual_f2_hz": 824.0,
+        "manual_delta_cents": -152.7367968405824,
+        "openwind_f1_hz": 322.44753917331417,
+        "openwind_f2_hz": 659.737043597734,
+        "openwind_delta_cents": 39.39198452009974,
+        "difference_f1_hz": 127.55246082668583,
+        "difference_f2_hz": 164.262956402266,
+        "difference_delta_cents": -192.12878136068213
+      },
+      {
+        "cut_length_mm": 475.0,
+        "manual_f1_hz": 490.0,
+        "manual_f2_hz": 854.0,
+        "manual_delta_cents": -238.25481525849617,
+        "openwind_f1_hz": 343.2730927583919,
+        "openwind_f2_hz": 704.1702568300299,
+        "openwind_delta_cents": 43.881016873032515,
+        "difference_f1_hz": 146.7269072416081,
+        "difference_f2_hz": 149.82974316997013,
+        "difference_delta_cents": -282.1358321315287
+      },
+      {
+        "cut_length_mm": 443.3333333333333,
+        "manual_f1_hz": 526.0,
+        "manual_f2_hz": 880.0,
+        "manual_delta_cents": -309.0711309211712,
+        "openwind_f1_hz": 367.0803767178053,
+        "openwind_f2_hz": 755.0783794448535,
+        "openwind_delta_cents": 48.63649807834224,
+        "difference_f1_hz": 158.91962328219472,
+        "difference_f2_hz": 124.92162055514655,
+        "difference_delta_cents": -357.7076289995134
+      },
+      {
+        "cut_length_mm": 411.66666666666663,
+        "manual_f1_hz": 566.0,
+        "manual_f2_hz": 906.0,
+        "manual_delta_cents": -385.54920334277665,
+        "openwind_f1_hz": 394.5371406076568,
+        "openwind_f2_hz": 813.9514148365188,
+        "openwind_delta_cents": 53.73787683304502,
+        "difference_f1_hz": 171.4628593923432,
+        "difference_f2_hz": 92.04858516348122,
+        "difference_delta_cents": -439.28708017582164
+      },
+      {
+        "cut_length_mm": 380.0,
+        "manual_f1_hz": 614.0,
+        "manual_f2_hz": 1408.0,
+        "manual_delta_cents": 236.80412792054156,
+        "openwind_f1_hz": 426.55551019053644,
+        "openwind_f2_hz": 882.8253274523843,
+        "openwind_delta_cents": 59.273423541530825,
+        "difference_f1_hz": 187.44448980946356,
+        "difference_f2_hz": 525.1746725476157,
+        "difference_delta_cents": 177.53070437901073
+      },
+      {
+        "cut_length_mm": 348.3333333333333,
+        "manual_f1_hz": 670.0,
+        "manual_f2_hz": 1568.0,
+        "manual_delta_cents": 272.03107052408825,
+        "openwind_f1_hz": 464.4565901433743,
+        "openwind_f2_hz": 968.7022548430991,
+        "openwind_delta_cents": 72.61144393984718,
+        "difference_f1_hz": 205.54340985662571,
+        "difference_f2_hz": 599.2977451569009,
+        "difference_delta_cents": 199.4196265842411
+      },
+      {
+        "cut_length_mm": 316.66666666666663,
+        "manual_f1_hz": 736.0,
+        "manual_f2_hz": 1730.0,
+        "manual_delta_cents": 279.593239760489,
+        "openwind_f1_hz": 510.0925866859623,
+        "openwind_f2_hz": 1575.0191984497994,
+        "openwind_delta_cents": 751.8460503645225,
+        "difference_f1_hz": 225.90741331403768,
+        "difference_f2_hz": 154.98080155020057,
+        "difference_delta_cents": -472.2528106040335
+      },
+      {
+        "cut_length_mm": 285.0,
+        "manual_f1_hz": 818.0,
+        "manual_f2_hz": 1858.0,
+        "manual_delta_cents": 220.29330412908496,
+        "openwind_f1_hz": 566.2365252934615,
+        "openwind_f2_hz": 1171.9005262828123,
+        "openwind_delta_cents": 59.248075952497565,
+        "difference_f1_hz": 251.76347470653855,
+        "difference_f2_hz": 686.0994737171877,
+        "difference_delta_cents": 161.0452281765874
+      }
+    ]
+  }
+}

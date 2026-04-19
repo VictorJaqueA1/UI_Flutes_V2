@@ -1,0 +1,343 @@
+{
+  "inverse_curve": {
+    "flute_kind": "inverse",
+    "input_geometry": {
+      "kind": "inverse",
+      "d": 9.0,
+      "x": 160.0,
+      "y": 6.0,
+      "a": 150.0,
+      "Dt": 12.0,
+      "L": 570.0,
+      "Di": 18.0
+    },
+    "frequency_axis_min_hz": 20.0,
+    "frequency_axis_max_hz": 2200.0,
+    "frequency_axis_step_hz": 2.0,
+    "frequency_axis_rationale": "Barrido global heredado: 20 Hz hasta un maximo derivado del corte mas corto (L/2), reutilizado para todos los cortes de una misma flauta. Las resonancias finales se toman con resonance_frequencies().",
+    "points": [
+      {
+        "cut_length_mm": 570.0,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 270.4475025899127,
+        "f2_hz": 573.8707978239645,
+        "delta_cents": 102.4528651668502,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 538.3333333333334,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 285.6404205803667,
+        "f2_hz": 609.0955977261301,
+        "delta_cents": 110.96223564764713,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 506.6666666666667,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 302.85084314967185,
+        "f2_hz": 649.0470315994327,
+        "delta_cents": 119.65871453426173,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 475.0,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 322.4069605300846,
+        "f2_hz": 694.7083033870584,
+        "delta_cents": 129.02934009456277,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 443.3333333333333,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 344.86390266548534,
+        "f2_hz": 747.2798185347065,
+        "delta_cents": 138.74571908040522,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 411.66666666666663,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 370.9950024645959,
+        "f2_hz": 808.3338575694248,
+        "delta_cents": 148.26182896871518,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 380.0,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 401.8240577008595,
+        "f2_hz": 879.8135893239345,
+        "delta_cents": 156.76073069909972,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 348.3333333333333,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 438.85148782580865,
+        "f2_hz": 966.471034781026,
+        "delta_cents": 166.79243630622412,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 316.66666666666663,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 484.18780168294734,
+        "f2_hz": 1572.2252797576682,
+        "delta_cents": 839.0031762805645,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 285.0,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 541.0940341253524,
+        "f2_hz": 1176.7259911944575,
+        "delta_cents": 144.99261356054876,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "base_curve": {
+    "flute_kind": "base",
+    "input_geometry": {
+      "kind": "base",
+      "d": 9.0,
+      "x": 160.0,
+      "y": 6.0,
+      "a": 150.0,
+      "Dt": 12.0,
+      "L": 570.0,
+      "Di": 18.0
+    },
+    "frequency_axis_min_hz": 20.0,
+    "frequency_axis_max_hz": 2200.0,
+    "frequency_axis_step_hz": 2.0,
+    "frequency_axis_rationale": "Barrido global heredado: 20 Hz hasta un maximo derivado del corte mas corto (L/2), reutilizado para todos los cortes de una misma flauta. Las resonancias finales se toman con resonance_frequencies().",
+    "points": [
+      {
+        "cut_length_mm": 570.0,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 287.55933770454976,
+        "f2_hz": 586.0172653934429,
+        "delta_cents": 32.50018111181466,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 538.3333333333334,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 303.9925203883484,
+        "f2_hz": 620.6699007310281,
+        "delta_cents": 35.7484286512511,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 506.6666666666667,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 322.44753917331417,
+        "f2_hz": 659.737043597734,
+        "delta_cents": 39.39198452009974,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 475.0,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 343.2730927583919,
+        "f2_hz": 704.1702568300299,
+        "delta_cents": 43.881016873032515,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 443.3333333333333,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 367.0803767178053,
+        "f2_hz": 755.0783794448535,
+        "delta_cents": 48.63649807834224,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 411.66666666666663,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 394.5371406076568,
+        "f2_hz": 813.9514148365188,
+        "delta_cents": 53.73787683304502,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 380.0,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 426.55551019053644,
+        "f2_hz": 882.8253274523843,
+        "delta_cents": 59.273423541530825,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 348.3333333333333,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 464.4565901433743,
+        "f2_hz": 968.7022548430991,
+        "delta_cents": 72.61144393984718,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 316.66666666666663,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 510.0925866859623,
+        "f2_hz": 1575.0191984497994,
+        "delta_cents": 751.8460503645225,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cut_length_mm": 285.0,
+        "f1_hint_hz": 0.0,
+        "f1_hz": 566.2365252934615,
+        "f2_hz": 1171.9005262828123,
+        "delta_cents": 59.248075952497565,
+        "f1_window_hz": [
+          0.0,
+          0.0
+        ],
+        "f2_window_hz": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "rmse": 86.38301546511178,
+  "inharmonicity_formula": "delta = 1200 * log2(f2 / (2 * f1))",
+  "rmse_formula": "rmse = sqrt(mean((delta_base_i - delta_inv_i)^2))"
+}
