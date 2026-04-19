@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Proyecto Flautas - Plataforma nueva</title>
+  <link rel="stylesheet" href="./css/ui.css?v=20260402-graph-step-6" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="top-layout">
+      <section class="left-stack">
+        <article class="panel panel-flute" data-panel="flute-base" data-flute-theme="base">
+          <header class="panel-header">
+            <h1 class="panel-title">Flauta base</h1>
+            <span class="panel-meta" data-flute-id-label="base">ID: --</span>
+          </header>
+          <div class="panel-body flute-layout">
+            <section class="flute-controls-grid">
+              <article class="slider-card" data-param="d">
+                <div class="slider-head">
+                  <label class="slider-title" for="base-slider-1">Diámetro embocadura</label>
+                  <span class="slider-value">300 mm</span>
+                </div>
+                <input id="base-slider-1" class="slider-input" data-param="d" type="range" min="0" max="150" value="0" />
+                <div class="slider-foot">
+                  <span class="slider-range">Rango 300 - 150 mm</span>
+                  <div class="slider-mode">
+                    <label><input type="radio" name="base-mode-1" checked /> Fijo</label>
+                    <label><input type="radio" name="base-mode-1" /> Variable</label>
+                  </div>
+                </div>
+              </article>
+
+              <article class="slider-card" data-param="x">
+                <div class="slider-head">
+                  <label class="slider-title" for="base-slider-2">Posición de embocadura</label>
+                  <span class="slider-value">300 mm</span>
+                </div>
+                <input id="base-slider-2" class="slider-input" data-param="x" type="range" min="0" max="150" value="0" />
+                <div class="slider-foot">
+                  <span class="slider-range">Rango 300 - 150 mm</span>
+                  <div class="slider-mode">
+                    <label><input type="radio" name="base-mode-2" checked /> Fijo</label>
+                    <label><input type="radio" name="base-mode-2" /> Variable</label>
+                  </div>
+                </div>
+              </article>
+
+              <article class="slider-card" data-param="a">
+                <div class="slider-head">
+                  <label class="slider-title" for="base-slider-3">Breakpoint</label>
+                  <span class="slider-value">300 mm</span>
+                </div>
+                <input id="base-slider-3" class="slider-input" data-param="a" type="range" min="0" max="150" value="0" />
+                <div class="slider-foot">
+                  <span class="slider-range">Rango 300 - 150 mm</span>
+                  <div class="slider-mode">
+                    <label><input type="radio" name="base-mode-3" checked /> Fijo</label>
+                    <label><input type="radio" name="base-mode-3" /> Variable</label>
+                  </div>
+                </div>
+              </article>
+
+              <article class="slider-card" data-param="y">
+                <div class="slider-head">
+                  <label class="slider-title" for="base-slider-4">Altura de chimenea</label>
+                  <span class="slider-value">300 mm</span>
+                </div>
+                <input id="base-slider-4" class="slider-input" data-param="y" type="range" min="0" max="150" value="0" />
+                <div class="slider-foot">
+                  <span class="slider-range">Rango 300 - 150 mm</span>
+                  <div class="slider-mode">
+                    <label><input type="radio" name="base-mode-4" checked /> Fijo</label>
+                    <label><input type="radio" name="base-mode-4" /> Variable</label>
+                  </div>
+                </div>
+              </article>
+
+              <article class="slider-card" data-param="Dt">
+                <div class="slider-head">
+                  <label class="slider-title" for="base-slider-5">Diámetro de salida</label>
+                  <span class="slider-value">300 mm</span>
+                </div>
+                <input id="base-slider-5" class="slider-input" data-param="Dt" type="range" min="0" max="150" value="0" />
+                <div class="slider-foot">
+                  <span class="slider-range">Rango 300 - 150 mm</span>
+                  <div class="slider-mode">
+                    <label><input type="radio" name="base-mode-5" checked /> Fijo</label>
+                    <label><input type="radio" name="base-mode-5" /> Variable</label>
+                  </div>
+                </div>
+              </article>
+            </section>
+            <section class="flute-canvas-shell">
+              <div class="flute-canvas-box">
+                <canvas
+                  id="flute-base-canvas"
+                  class="flute-canvas"
+                  width="920"
+                  height="132"
+                ></canvas>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <article class="panel panel-flute" data-panel="flute-inverse" data-flute-theme="inverse">
+          <header class="panel-header">
+            <h2 class="panel-title">Flauta inversa</h2>
+            <span class="panel-meta" data-flute-id-label="inverse">ID: --</span>
+          </header>
+          <div class="panel-body flute-layout">
+            <section class="flute-controls-grid">
+              <article class="slider-card" data-param="d">
+                <div class="slider-head">
+                  <label class="slider-title" for="inverse-slider-1">Diámetro embocadura</label>
+                  <span class="slider-value">300 mm</span>
+                </div>
+                <input id="inverse-slider-1" class="slider-input" data-param="d" type="range" min="0" max="150" value="0" />
+                <div class="slider-foot">
+                  <span class="slider-range">Rango 300 - 150 mm</span>
+                  <div class="slider-mode">
+                    <label><input type="radio" name="inverse-mode-1" checked /> Fijo</label>
+                    <label><input type="radio" name="inverse-mode-1" /> Variable</label>
+                  </div>
+                </div>
+              </article>
+
+              <article class="slider-card" data-param="x">
+                <div class="slider-head">
+                  <label class="slider-title" for="inverse-slider-2">Posición de embocadura</label>
+                  <span class="slider-value">300 mm</span>
+                </div>
+                <input id="inverse-slider-2" class="slider-input" data-param="x" type="range" min="0" max="150" value="0" />
+                <div class="slider-foot">
+                  <span class="slider-range">Rango 300 - 150 mm</span>
+                  <div class="slider-mode">
+                    <label><input type="radio" name="inverse-mode-2" checked /> Fijo</label>
+                    <label><input type="radio" name="inverse-mode-2" /> Variable</label>
+                  </div>
+                </div>
+              </article>
+
+              <article class="slider-card" data-param="a">
+                <div class="slider-head">
+                  <label class="slider-title" for="inverse-slider-3">Breakpoint</label>
+                  <span class="slider-value">300 mm</span>
+                </div>
+                <input id="inverse-slider-3" class="slider-input" data-param="a" type="range" min="0" max="150" value="0" />
+                <div class="slider-foot">
+                  <span class="slider-range">Rango 300 - 150 mm</span>
+                  <div class="slider-mode">
+                    <label><input type="radio" name="inverse-mode-3" checked /> Fijo</label>
+                    <label><input type="radio" name="inverse-mode-3" /> Variable</label>
+                  </div>
+                </div>
+              </article>
+
+              <article class="slider-card" data-param="y">
+                <div class="slider-head">
+                  <label class="slider-title" for="inverse-slider-4">Altura de chimenea</label>
+                  <span class="slider-value">300 mm</span>
+                </div>
+                <input id="inverse-slider-4" class="slider-input" data-param="y" type="range" min="0" max="150" value="0" />
+                <div class="slider-foot">
+                  <span class="slider-range">Rango 300 - 150 mm</span>
+                  <div class="slider-mode">
+                    <label><input type="radio" name="inverse-mode-4" checked /> Fijo</label>
+                    <label><input type="radio" name="inverse-mode-4" /> Variable</label>
+                  </div>
+                </div>
+              </article>
+
+              <article class="slider-card" data-param="Dt">
+                <div class="slider-head">
+                  <label class="slider-title" for="inverse-slider-5">Diámetro de entrada</label>
+                  <span class="slider-value">300 mm</span>
+                </div>
+                <input id="inverse-slider-5" class="slider-input" data-param="Dt" type="range" min="0" max="150" value="0" />
+                <div class="slider-foot">
+                  <span class="slider-range">Rango 300 - 150 mm</span>
+                  <div class="slider-mode">
+                    <label><input type="radio" name="inverse-mode-5" checked /> Fijo</label>
+                    <label><input type="radio" name="inverse-mode-5" /> Variable</label>
+                  </div>
+                </div>
+              </article>
+            </section>
+            <section class="flute-canvas-shell">
+              <div class="flute-canvas-box">
+                <canvas
+                  id="flute-inverse-canvas"
+                  class="flute-canvas"
+                  width="920"
+                  height="132"
+                ></canvas>
+              </div>
+            </section>
+          </div>
+        </article>
+      </section>
+
+      <aside class="panel panel-graph" data-panel="graph">
+        <header class="panel-header">
+          <h2 class="panel-title">Grafico de inarmonicidad</h2>
+        </header>
+        <div class="panel-body graph-layout">
+          <div class="graph-canvas-shell">
+            <canvas
+              id="inharmonicity-graph-canvas"
+              class="graph-canvas"
+              width="920"
+              height="720"
+            ></canvas>
+          </div>
+          <div class="graph-controls-row">
+            <section class="graph-controls-shell" aria-label="Controles del grafico de inarmonicidad">
+              <div class="graph-controls-mode-row">
+                <span class="graph-controls-label">Modo:</span>
+                <label class="graph-mode-option">
+                  <input type="radio" name="graph-mode" value="visualization" data-graph-mode="visualization" checked />
+                  <span>Visualizacion</span>
+                </label>
+                <label class="graph-mode-option">
+                  <input type="radio" name="graph-mode" value="calculation" data-graph-mode="calculation" />
+                  <span>Calculo de geometria</span>
+                </label>
+              </div>
+
+              <div class="graph-controls-actions">
+                <button type="button" class="graph-action-button" data-graph-action="calculate-base">calcular curva flauta base</button>
+                <button type="button" class="graph-action-button" data-graph-action="calculate-inverse">calcular curva flauta inversa</button>
+              </div>
+
+              <div class="graph-controls-search-row">
+                <label class="graph-id-field">
+                  <span class="graph-controls-label">ID:</span>
+                  <input type="text" class="graph-id-input" placeholder="ej: 12" />
+                </label>
+                <button type="button" class="graph-search-button" data-graph-search="base">buscar Base por ID</button>
+                <button type="button" class="graph-search-button" data-graph-search="inverse">buscar Inversa por ID</button>
+              </div>
+            </section>
+
+            <div class="graph-controls-right-shell" aria-label="Herramientas de analisis">
+              <div class="rmse-panel">
+                <span class="rmse-panel-title">Buscar menor RMSE</span>
+
+                <div class="rmse-block rmse-block-pairs">
+                  <button type="button" class="rmse-trigger" data-rmse-trigger="pairs" aria-haspopup="listbox" aria-expanded="false">
+                    <span class="rmse-trigger-text" data-rmse-trigger-text="pairs">— seleccionar —</span>
+                    <span class="rmse-trigger-arrow">▲</span>
+                  </button>
+                  <div class="rmse-floating-list" data-rmse-list="pairs" role="listbox" hidden></div>
+                </div>
+
+                <div class="rmse-block rmse-block-range">
+                  <span class="rmse-panel-title">Rango de resultados</span>
+                  <button type="button" class="rmse-trigger" data-rmse-trigger="range" aria-haspopup="listbox" aria-expanded="false">
+                    <span class="rmse-trigger-text" data-rmse-trigger-text="range">1 – 50</span>
+                    <span class="rmse-trigger-arrow">▲</span>
+                  </button>
+                  <div class="rmse-floating-list rmse-floating-list--narrow" data-rmse-list="range" role="listbox" hidden></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="bottom-layout">
+      <article class="panel panel-extra" data-panel="extra-left">
+        <header class="panel-header">
+          <h2 class="panel-title">Area adicional izquierda</h2>
+        </header>
+        <div class="panel-body"></div>
+      </article>
+
+      <article class="panel panel-extra" data-panel="extra-right">
+        <header class="panel-header">
+          <h2 class="panel-title">Area adicional derecha</h2>
+        </header>
+        <div class="panel-body"></div>
+      </article>
+    </section>
+  </main>
+
+  <script type="module" src="./src/app/init.js?v=20260408-visual-catalog-step-1"></script>
+</body>
+</html>
